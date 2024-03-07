@@ -2,17 +2,12 @@ import styles from './Header.module.css';
 
 
 type PropsType = {
-    title:string;
-    name?:string;
-    cor?:string;
-    children?: React.ReactNode
+    title: string;
 }
-export function Header({title,name="fulano",cor="blue", children}:PropsType){
+export function Header({ title }: PropsType) {
     return (
-        <div className={styles.container} style={{backgroundColor:cor}}>
-            <span className={styles.title}>{title}</span>
-            <span className={styles.description}>{name}</span>
-            {children}
-        </div>
+        <header className={styles.container}>
+            <h1>{title}</h1>
+        </header>
     )
 }

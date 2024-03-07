@@ -1,19 +1,15 @@
-import { useState } from "react";
+import styles from './Card.module.css';
 
-import { Header } from "./components/Header";
-
-import styles from './App.module.css';
-
-type CardProps ={
-  nameValue:string;
-  time:string;
+type CardProps = {
+  nameValue: string;
+  time: string;
 }
-export function Card({nameValue,time}: CardProps) {
-  
+export function Card({ nameValue, time }: CardProps) {
+
   return (
     <div className={styles.container}>
-      <span> {nameValue}</span>
-      <span>{time}</span> 
+      <strong> {nameValue}</strong>
+      <span>{time}</span>
     </div>
   )
 }

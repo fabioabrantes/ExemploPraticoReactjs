@@ -1,8 +1,9 @@
 :root {
- --white:'#fff';
- --gray-100:'#e1e1e6';
-
- --green:'#00875f'
+ --white:#fff;
+ --gray-100:#e1e1e6;
+ --green:#00875f;
+ --pink:#ea4c89;
+ --blue:#735bf2
 }
 
 *{
@@ -15,7 +16,7 @@ a {
 }
 
 body,input,textarea,select {
- font-family:"Roboto", sans-serif
+ font-family: "Roboto", sans-serif
  font-size: 1rem;
  font-weigth:400;
 }

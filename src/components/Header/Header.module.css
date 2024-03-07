@@ -1,17 +1,8 @@
 .container{
-    display:flex;
-    flex-direction: column;
+    width: 50%;
+    margin:84px 0  24px;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
-    padding:1.2rem 1rem;
-    width:100%;
-    margin:1.2rem 1rem;
-    .title{
-        font-size: 2rem;
-        font-weight: 500;
-    }
-    .description{
-        font-size: 1.2rem;
-        font-weight: 300;
-    }
 }
+
